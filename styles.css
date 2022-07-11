@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content_load{
+    width:100%;
+    height: 100vh;
+    background-color:red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+
+    position: fixed;
+    top: 0;
+
+}
+
+.contentButtons{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap:1em;
+    max-width: 300px;
+    margin: auto;
+}
+
+
+.contentButtons button{
+    background-color: #FF8B8B;
+    outline: none;
+    padding: 1em 0;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+
+
+}
